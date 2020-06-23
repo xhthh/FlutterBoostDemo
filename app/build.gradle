@@ -30,4 +30,5 @@ dependencies {
 
     implementation rootProject.ext.support_v7
     implementation project(path: ':flutter')
+    implementation project(':flutter_boost')
 }

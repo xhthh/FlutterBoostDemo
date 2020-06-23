@@ -6,16 +6,16 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_goto_flutter"
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="跳转Flutter界面" />
+        android:text="Android原生界面"
+        android:textColor="#333"
+        android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/btn_goto_na_flutter"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="跳转Android和Flutter混合界面" />
+        android:text="" />
 </LinearLayout>
